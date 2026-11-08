@@ -14,7 +14,7 @@ frutas+=(uva)                           # acrescenta
 
 echo "   todos:      ${frutas[*]}"
 echo "   quantidade: ${#frutas[@]}"
-echo "   índices:    ${!frutas[@]}"
+echo "   índices:    ${!frutas[*]}"
 echo "   elemento 2: ${frutas[2]}"
 echo "   fatia 1..2: ${frutas[*]:1:2}"
 
@@ -43,7 +43,9 @@ echo
 echo "== Caso de uso: contar palavras (histograma) =="
 declare -A contagem
 for palavra in sol mar sol praia mar sol; do
-    (( contagem[$palavra]++ ))          # chave nova começa em 0 automaticamente
+    # Com 'set -u', incrementar uma chave INEXISTENTE dá "unbound variable".
+    # O padrão robusto usa um valor-padrão 0 antes de somar:
+    contagem[$palavra]=$(( ${contagem[$palavra]:-0} + 1 ))
 done
 for p in "${!contagem[@]}"; do
     printf '      %-6s %d\n' "$p" "${contagem[$p]}"

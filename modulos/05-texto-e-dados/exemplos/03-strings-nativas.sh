@@ -32,7 +32,9 @@ printf '   trocar SANTOS→Silva     → [%s]\n' "${nome/SANTOS/Silva}"
 
 echo
 echo "Comparação de velocidade (10000 extrações de basename):"
-t0=$SECONDS
-for ((i=0;i<10000;i++)); do b="${arq##*/}"; done
-echo "   nativo (\${arq##*/}): instantâneo (~${SECONDS}s, sem criar processos)"
-echo "   (chamar 'basename' 10000x criaria 10000 processos — ordens de grandeza mais lento)"
+inicio=$SECONDS
+for ((i=0; i<10000; i++)); do base="${arq##*/}"; done
+fim=$SECONDS
+echo "   última extração: $base"
+echo "   10000 extrações nativas levaram $(( fim - inicio ))s (nenhum processo criado)."
+echo "   Chamar 'basename' 10000x criaria 10000 processos — muito mais lento."

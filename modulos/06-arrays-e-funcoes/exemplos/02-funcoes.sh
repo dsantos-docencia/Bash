@@ -48,4 +48,5 @@ primeiro_e_ultimo() {
     _saida="$1 ... ${!#}" # ${!#} = o último argumento
 }
 primeiro_e_ultimo resultado alfa beta gama delta
+# shellcheck disable=SC2154  # 'resultado' foi preenchido via nameref (local -n) dentro da função
 echo "   resultado = $resultado"
