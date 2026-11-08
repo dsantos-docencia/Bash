@@ -221,6 +221,6 @@ See [exercicios/README.md](exercicios/README.md). Grade them with:
 
 ---
 
-⬅️ [Home](../../README.en.md) · ➡️ [Module 01 — Surviving the Terminal](../01-sobrevivencia-no-terminal/README.md)
+⬅️ [Home](../../README.en.md) · ➡️ [Module 01 — Surviving the Terminal](../01-sobrevivencia-no-terminal/README.en.md)
 
 <sub>© 2026 Prof. Daniel Santos · Text under [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Code under [PolyForm NC](../../LICENSE)</sub>
