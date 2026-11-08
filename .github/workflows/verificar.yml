@@ -1,0 +1,24 @@
+name: Verificação do curso
+
+# Garante a promessa do repositório: todo exemplo e toda solução funcionam.
+on:
+  push:
+    branches: [ main, master, estrutura-curso-completo ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Mostrar versão do Bash
+        run: bash --version | head -1
+
+      - name: Instalar ShellCheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+
+      - name: Rodar a verificação completa
+        run: ./ferramentas/verificar-tudo.sh
