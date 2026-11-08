@@ -28,4 +28,16 @@ Isso aplica:
 
 > Por que não foi aplicado automaticamente? Configurações administrativas do GitHub não podem ser alteradas de dentro da sessão automatizada — elas dependem do seu token de admin. Daí o script, que você roda com um comando.
 
+
+## No Windows (PowerShell)
+
+O `configurar-github.sh` é um script Bash. Se você administra pelo **PowerShell no Windows**, use a versão `.ps1` (faz exatamente o mesmo):
+```powershell
+# de dentro da pasta do repositório:
+./ferramentas/configurar-github.ps1 -Repo dsantos-docencia/REPOSITORIO
+```
+Ou cole a função `Set-RepoGovernanca` (enviada no chat) direto no PowerShell, de qualquer pasta.
+
+> ⚠️ Rode **depois** do primeiro CI "verificar" ter rodado na `main` — senão a regra espera um check que ainda não existe.
+
 <sub>© 2026 Prof. Daniel Santos</sub>
