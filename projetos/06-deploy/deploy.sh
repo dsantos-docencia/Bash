@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Projeto 6 · deploy.sh — Deploy simples com rollback
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  Publica uma nova versão (de um diretório de origem) num diretório "atual"
 #  usando troca atômica por symlink + versões datadas, com ROLLBACK automático

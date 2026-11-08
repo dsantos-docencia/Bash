@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 09 · Exemplo 03 — Here-docs, here-strings e fd
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Here-doc com/sem expansão, here-string e descritores de arquivo.
 #  EXECUTE   bash 03-heredoc-e-fd.sh

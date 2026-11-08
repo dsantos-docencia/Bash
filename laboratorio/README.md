@@ -32,4 +32,4 @@ As mudanças que você faz nos arquivos do curso valem dos dois lados (é um vol
 
 Sem problema. Todo o curso roda direto no seu Bash. O container é só uma conveniência. Veja as opções de ambiente no [Módulo 00](../modulos/00-boas-vindas-e-fundamentos/README.md#5-seu-laboratório-um-lugar-seguro-para-errar).
 
-<sub>© 2026 Prof. Daniel Santos · MIT</sub>
+<sub>© 2026 Prof. Daniel Santos · PolyForm NC (não comercial)</sub>

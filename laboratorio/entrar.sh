@@ -2,7 +2,7 @@
 # ============================================================================
 #  Curso de Bash — laboratorio/entrar.sh
 #  Abre um shell dentro do container do curso, com o repositório montado.
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ============================================================================
 set -euo pipefail
 

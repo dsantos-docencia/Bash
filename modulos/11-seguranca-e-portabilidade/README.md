@@ -224,4 +224,4 @@ Veja [exercicios/README.md](exercicios/README.md). Corrija com `./ferramentas/co
 
 ⬅️ [Módulo 10](../10-sistema-processos-rede/README.md) · ➡️ [Projetos práticos](../../projetos/) · [Referência](../../referencia/)
 
-<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [MIT](../../LICENSE)</sub>
+<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [PolyForm NC](../../LICENSE)</sub>

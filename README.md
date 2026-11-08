@@ -4,11 +4,13 @@
 
 ### Um curso aberto, prático e verificável de Bash — a língua franca do terminal Linux
 
-*Material didático gratuito da comunidade, para a comunidade.*
+*Material didático gratuito e aberto — para uso não comercial.*
 
-[![Licença do código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-blue.svg)](LICENSE)
+**🌍 Idioma / Language:** **Português** · [English](README.en.md)
+
+[![Licença do código: PolyForm NC](https://img.shields.io/badge/c%C3%B3digo-PolyForm%20NC-orange.svg)](LICENSE)
 [![Licença do conteúdo: CC BY-NC-SA 4.0](https://img.shields.io/badge/conte%C3%BAdo-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE-CONTEUDO.md)
-[![Verificação](https://github.com/dsantos-docencia/bash/actions/workflows/verificar.yml/badge.svg)](https://github.com/dsantos-docencia/bash/actions)
+[![Verificação](https://github.com/dsantos-docencia/Bash/actions/workflows/verificar.yml/badge.svg)](https://github.com/dsantos-docencia/Bash/actions)
 [![PRs bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen.svg)](CONTRIBUTING.md)
 
 </div>
@@ -127,9 +129,15 @@ Veja a lista curada e comentada em **[referencia/recursos.md](referencia/recurso
 
 ## 🤝 Contribuindo
 
-Encontrou um erro? Tem uma ideia de exemplo ou exercício? Toda ajuda é bem-vinda. Leia o [guia de contribuição](CONTRIBUTING.md) — explicamos o padrão dos arquivos e como rodar a verificação localmente antes de abrir um PR.
+> **Junte-se a mim e deixe algo de útil para o próximo.** 🌱
+> Conhecimento que não é compartilhado morre com quem o guarda. Este repositório é um convite: some o seu conhecimento ao de outras pessoas e ajude a construir o melhor material de Bash em português — e, agora, também em inglês.
 
-Pessoas que contribuíram estão em [CONTRIBUTORS.md](CONTRIBUTORS.md).
+Toda ajuda é bem-vinda, não importa o tamanho:
+- **Achou um erro ou tem uma ideia?** [Abra uma issue](https://github.com/dsantos-docencia/Bash/issues/new/choose) ou mande um Pull Request.
+- **Escreveu um script legal e quer compartilhar?** Temos um catálogo da comunidade. Envie o seu pela trilha **"📜 Enviar um script para a comunidade"** ([nova issue](https://github.com/dsantos-docencia/Bash/issues/new/choose)) — a gente avalia, comenta e, se fizer sentido, inclui em [`scripts/comunidade/`](scripts/comunidade/) com o seu crédito. **Não deixe o conhecimento morrer com você.**
+- **Fala outro idioma?** Ajude a traduzir (veja o [guia de tradução](traducoes/README.md)).
+
+Leia o [guia de contribuição](CONTRIBUTING.md) — explicamos o padrão dos arquivos e como rodar a verificação localmente antes de abrir um PR. Quem contribui entra em [CONTRIBUTORS.md](CONTRIBUTORS.md). 💚
 
 ---
 
@@ -137,8 +145,11 @@ Pessoas que contribuíram estão em [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
 Criado e mantido por **Prof. Daniel Santos** ([@dsantos-docencia](https://github.com/dsantos-docencia)).
 
-- **Código** (scripts, ferramentas, exemplos): [MIT](LICENSE) — use como quiser, inclusive comercialmente.
-- **Conteúdo didático** (textos, exercícios, diagramas): [CC BY-NC-SA 4.0](LICENSE-CONTEUDO.md) — compartilhe e adapte para fins não comerciais, citando a autoria e mantendo a mesma licença.
+Este é um material **aberto para uso não comercial** — estude, use e aprenda à vontade; só não vale explorar comercialmente. Detalhes e direitos do autor no [NOTICE](NOTICE.md).
+
+- **Código** (scripts, ferramentas, exemplos): [PolyForm Noncommercial 1.0.0](LICENSE) — usar, modificar e redistribuir **para fins não comerciais**.
+- **Conteúdo didático** (textos, exercícios, diagramas): [CC BY-NC-SA 4.0](LICENSE-CONTEUDO.md) — compartilhe e adapte **para fins não comerciais**, com atribuição e mesma licença.
+- **Uso comercial** requer autorização do autor. Precisa? [Abra uma issue](https://github.com/dsantos-docencia/Bash/issues) ou entre em contato.
 
 > A pasta [`scripts/`](scripts/) contém scripts reais de infraestrutura (Samba AD, auditoria) usados em aula, com curadoria de versões. Leia o [aviso da pasta](scripts/README.md) antes de executá-los.
 

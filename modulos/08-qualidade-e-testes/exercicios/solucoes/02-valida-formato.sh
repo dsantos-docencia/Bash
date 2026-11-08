@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # Solução 08.02 — \d{3}.\d{3}.\d{3}-\d{2}, com os pontos e o traço literais.
 if [[ "$1" =~ ^[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}$ ]]; then
     echo "valido"

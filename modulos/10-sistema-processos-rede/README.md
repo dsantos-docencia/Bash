@@ -190,4 +190,4 @@ Veja [exercicios/README.md](exercicios/README.md). Corrija com `./ferramentas/co
 
 ⬅️ [Módulo 09](../09-bash-avancado/README.md) · ➡️ [Módulo 11 — Segurança e Portabilidade](../11-seguranca-e-portabilidade/README.md)
 
-<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [MIT](../../LICENSE)</sub>
+<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [PolyForm NC](../../LICENSE)</sub>

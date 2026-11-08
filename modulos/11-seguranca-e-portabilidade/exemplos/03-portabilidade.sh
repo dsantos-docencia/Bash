@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 11 · Exemplo 03 — Portabilidade Bash vs POSIX sh
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Resolver o MESMO problema em Bash (com recursos ricos) e em
 #            POSIX sh (portável), mostrando o que muda.

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 02 · Exemplo 01 — Fluxos e redirecionamento
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Ver, lado a lado, stdout e stderr, e cada operador de redireção.
 #  EXECUTE   bash 01-fluxos-e-redirecionamento.sh

@@ -29,4 +29,4 @@ bash projetos/01-backup/backup.sh --help
 
 Todos os projetos são **seguros para rodar**: operam em diretórios temporários ou exigem que você aponte explicitamente o alvo, e nenhum acessa a rede real nos testes.
 
-<sub>© 2026 Prof. Daniel Santos · Código [MIT](../LICENSE) · Conteúdo [CC BY-NC-SA 4.0](../LICENSE-CONTEUDO.md)</sub>
+<sub>© 2026 Prof. Daniel Santos · Código [PolyForm NC](../LICENSE) · Conteúdo [CC BY-NC-SA 4.0](../LICENSE-CONTEUDO.md)</sub>

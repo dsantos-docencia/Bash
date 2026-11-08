@@ -207,4 +207,4 @@ Veja [exercicios/README.md](exercicios/README.md). Corrija com `./ferramentas/co
 
 ⬅️ [Módulo 04](../04-controle-de-fluxo/README.md) · ➡️ [Módulo 06 — Arrays e Funções](../06-arrays-e-funcoes/README.md)
 
-<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [MIT](../../LICENSE)</sub>
+<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [PolyForm NC](../../LICENSE)</sub>

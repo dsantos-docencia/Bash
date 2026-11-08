@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 03 · Exemplo 01 — Argumentos de linha de comando
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Ver $0, $1, $#, "$@" e "$*" com argumentos reais.
 #  EXECUTE   bash 01-argumentos.sh um "dois com espaço" três

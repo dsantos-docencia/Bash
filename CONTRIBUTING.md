@@ -1,6 +1,17 @@
 # 🤝 Guia de Contribuição
 
-Obrigado por querer melhorar este curso! Correções de erros, novos exemplos, exercícios, traduções e melhorias de texto são todos bem-vindos.
+**Junte-se a mim e deixe algo de útil para o próximo.** 🌱 Conhecimento que não é compartilhado morre com quem o guarda. Correções de erros, novos exemplos, exercícios, traduções, scripts da comunidade e melhorias de texto são todos bem-vindos — não importa o tamanho.
+
+## Formas de contribuir
+
+| Quero… | Como |
+|---|---|
+| **Corrigir um erro** (texto, exemplo, link) | [issue "🐛 Erro"](https://github.com/dsantos-docencia/Bash/issues/new/choose) ou PR direto |
+| **Sugerir um exemplo/exercício** | [issue "💡 Sugestão"](https://github.com/dsantos-docencia/Bash/issues/new/choose) |
+| **Compartilhar um script meu** | [issue "📜 Enviar um script"](https://github.com/dsantos-docencia/Bash/issues/new/choose) → entra em [`scripts/comunidade/`](scripts/comunidade/) com seu crédito |
+| **Traduzir** | veja o [guia de tradução](traducoes/README.md) |
+
+> **Sobre a licença das contribuições:** ao contribuir, você concorda que sua contribuição será publicada sob as licenças do projeto (**uso não comercial** — PolyForm Noncommercial para código, CC BY-NC-SA para conteúdo; veja o [NOTICE](NOTICE.md)), mantendo seu crédito como autor.
 
 ## Antes de começar
 
@@ -39,7 +50,7 @@ modulos/NN-nome-do-modulo/
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo NN · <título>
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/Bash · © 2026 (PolyForm-NC)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  ...
 #  EXECUTE   ...

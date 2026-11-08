@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # Solução 09.03 — compara as versões ORDENADAS, sem arquivos temporários.
 if diff <(sort "$1") <(sort "$2") >/dev/null; then
     echo "iguais"
