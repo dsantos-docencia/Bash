@@ -29,13 +29,13 @@ It's free and open (for noncommercial use). If it helps you, leave a ⭐ and, if
 
 > *"I don't want to teach what everyone teaches. I want you, by the end, to look at a script and know exactly what each character does — and why it's there."* — Prof. Daniel
 
-> **Note on this translation:** the course is being translated from Brazilian Portuguese. The landing page and Module 00 are in English; the remaining modules are being translated with community help — [come help translate!](traducoes/README.md)
+> **Note on this translation:** the course was written in Brazilian Portuguese and translated to English. All the READMEs (modules, exercises, projects) and the reference pages are in English; what's still open is translating the **comments inside the scripts** — and **corrections or improvements** to any translation are very welcome. [Come help!](traducoes/README.en.md)
 
 ---
 
 ## 🎯 Who this is for
 
-- **Absolute beginners** who've never opened a terminal — start at [Module 00](modulos/00-boas-vindas-e-fundamentos/).
+- **Absolute beginners** who've never opened a terminal — start at [Module 00](modulos/00-boas-vindas-e-fundamentos/README.en.md).
 - **Linux users** who copy commands but want to **understand** them.
 - **IT, networking, and security students** who need real automation.
 - **DevOps/SRE/SysAdmin professionals** closing gaps and mastering the dark corners (file descriptors, `trap`, process substitution, portability).
@@ -50,22 +50,22 @@ Modules are progressive. Each has: **theory** (`README.md`), **runnable commente
 
 | # | Module | What you master | Hours |
 |---|---|---|---|
-| 00 | [Welcome & Fundamentals](modulos/00-boas-vindas-e-fundamentos/) | Shell vs. terminal vs. kernel, history, install, safe lab, getting help | 3–4 |
-| 01 | [Surviving the Terminal](modulos/01-sobrevivencia-no-terminal/) | Navigation, files, permissions, links, search | 6–8 |
-| 02 | [Data Flow](modulos/02-fluxo-de-dados/) | stdin/stdout/stderr, redirection, pipes, globbing, history | 5–7 |
-| 03 | [First Scripts](modulos/03-primeiros-scripts/) | Shebang, variables, quoting & expansions, `echo`/`printf`/`read` | 6–8 |
-| 04 | [Control Flow](modulos/04-controle-de-fluxo/) | `if`, `[[ ]]`, `case`, `for`, `while`, `until`, `select` | 8–10 |
-| 05 | [Text & Data](modulos/05-texto-e-dados/) | `grep`, `sed`, `awk`, `cut`, `sort`, `uniq`, `tr`, parameter expansion | 10–12 |
-| 06 | [Arrays & Functions](modulos/06-arrays-e-funcoes/) | Indexed & associative arrays, functions, scope, native strings | 6–8 |
-| 07 | [Robust Scripts](modulos/07-scripts-robustos/) | Exit codes, `set -euo pipefail`, `trap`, logging, debugging | 6–8 |
-| 08 | [Quality & Testing](modulos/08-qualidade-e-testes/) | ShellCheck, Bats, `getopts`, style, documentation | 5–7 |
-| 09 | [Advanced Bash](modulos/09-bash-avancado/) | Subshells, process substitution, here-docs, descriptors, FIFOs | 8–10 |
-| 10 | [System, Processes & Network](modulos/10-sistema-processos-rede/) | Jobs, signals, `cron`, `systemd` timers, `ssh`, `curl`, `rsync` | 8–10 |
-| 11 | [Security & Portability](modulos/11-seguranca-e-portabilidade/) | Command injection, `eval`, `mktemp`, classic pitfalls, POSIX | 6–8 |
+| 00 | [Welcome & Fundamentals](modulos/00-boas-vindas-e-fundamentos/README.en.md) | Shell vs. terminal vs. kernel, history, install, safe lab, getting help | 3–4 |
+| 01 | [Surviving the Terminal](modulos/01-sobrevivencia-no-terminal/README.en.md) | Navigation, files, permissions, links, search | 6–8 |
+| 02 | [Data Flow](modulos/02-fluxo-de-dados/README.en.md) | stdin/stdout/stderr, redirection, pipes, globbing, history | 5–7 |
+| 03 | [First Scripts](modulos/03-primeiros-scripts/README.en.md) | Shebang, variables, quoting & expansions, `echo`/`printf`/`read` | 6–8 |
+| 04 | [Control Flow](modulos/04-controle-de-fluxo/README.en.md) | `if`, `[[ ]]`, `case`, `for`, `while`, `until`, `select` | 8–10 |
+| 05 | [Text & Data](modulos/05-texto-e-dados/README.en.md) | `grep`, `sed`, `awk`, `cut`, `sort`, `uniq`, `tr`, parameter expansion | 10–12 |
+| 06 | [Arrays & Functions](modulos/06-arrays-e-funcoes/README.en.md) | Indexed & associative arrays, functions, scope, native strings | 6–8 |
+| 07 | [Robust Scripts](modulos/07-scripts-robustos/README.en.md) | Exit codes, `set -euo pipefail`, `trap`, logging, debugging | 6–8 |
+| 08 | [Quality & Testing](modulos/08-qualidade-e-testes/README.en.md) | ShellCheck, Bats, `getopts`, style, documentation | 5–7 |
+| 09 | [Advanced Bash](modulos/09-bash-avancado/README.en.md) | Subshells, process substitution, here-docs, descriptors, FIFOs | 8–10 |
+| 10 | [System, Processes & Network](modulos/10-sistema-processos-rede/README.en.md) | Jobs, signals, `cron`, `systemd` timers, `ssh`, `curl`, `rsync` | 8–10 |
+| 11 | [Security & Portability](modulos/11-seguranca-e-portabilidade/README.en.md) | Command injection, `eval`, `mktemp`, classic pitfalls, POSIX | 6–8 |
 
-🚀 **Hands-on projects**: see [projetos/](projetos/) — backup, system monitor, batch processing, professional CLI, deploy, and more.
+🚀 **Hands-on projects**: see [projetos/](projetos/README.en.md) — backup, system monitor, batch processing, professional CLI, deploy, and more.
 
-📚 **Quick reference**: see [referencia/](referencia/) — cheat sheets, test tables, expansions, signals.
+📚 **Quick reference**: see [referencia/](referencia/README.en.md) — cheat sheets, test tables, expansions, signals.
 
 ---
 
@@ -106,7 +106,7 @@ Want a fully isolated, server-like environment? Use the container lab:
 
 ## 🌐 Communities, documentation, and resources
 
-See the curated, commented list in **[referencia/recursos.md](referencia/recursos.md)**. Highlights: the [GNU Bash Manual](https://www.gnu.org/software/bash/manual/), [Greg's Wiki](https://mywiki.wooledge.org/) (BashFAQ, BashGuide, BashPitfalls), [ShellCheck](https://www.shellcheck.net/), [explainshell.com](https://explainshell.com/), and [Exercism's Bash track](https://exercism.org/tracks/bash).
+See the curated, commented list in **[referencia/recursos.md](referencia/recursos.en.md)**. Highlights: the [GNU Bash Manual](https://www.gnu.org/software/bash/manual/), [Greg's Wiki](https://mywiki.wooledge.org/) (BashFAQ, BashGuide, BashPitfalls), [ShellCheck](https://www.shellcheck.net/), [explainshell.com](https://explainshell.com/), and [Exercism's Bash track](https://exercism.org/tracks/bash).
 
 ---
 
@@ -118,7 +118,7 @@ See the curated, commented list in **[referencia/recursos.md](referencia/recurso
 Every bit helps:
 - **Found a bug or have an idea?** [Open an issue](https://github.com/dsantos-docencia/Bash/issues/new/choose) or send a Pull Request.
 - **Wrote a cool script and want to share it?** We have a community catalog. Submit yours via the **"📜 Submit a script to the community"** issue — we review it, discuss, and if it fits, include it in [`scripts/comunidade/`](scripts/comunidade/) **with your credit**. *Don't let your knowledge die with you.*
-- **Speak another language?** Help translate (see the [translation guide](traducoes/README.md)).
+- **Speak another language?** Help translate (see the [translation guide](traducoes/README.en.md)).
 
 Read the [contribution guide](CONTRIBUTING.md). Contributors are listed in [CONTRIBUTORS.md](CONTRIBUTORS.md). 💚
 
