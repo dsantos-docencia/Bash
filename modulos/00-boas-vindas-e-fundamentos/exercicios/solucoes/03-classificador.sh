@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # Solução 00.03
 # type -t imprime a categoria, ou nada (com status 1) se não encontrar.
 # O "if" testa o CÓDIGO DE SAÍDA do comando — conceito central do Módulo 05.

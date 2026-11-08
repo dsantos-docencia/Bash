@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 08 · calculadora.sh
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  calculadora.sh — soma, subtrai, multiplica ou divide dois inteiros.
 #  Uso: calculadora.sh [-v] -o SOMAR|SUBTRAIR|MULTIPLICAR|DIVIDIR A B

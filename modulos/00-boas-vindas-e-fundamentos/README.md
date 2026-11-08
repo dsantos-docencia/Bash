@@ -221,4 +221,4 @@ Veja [exercicios/README.md](exercicios/README.md). Corrija com:
 
 ⬅️ [Início](../../README.md) · ➡️ [Módulo 01 — Sobrevivência no Terminal](../01-sobrevivencia-no-terminal/README.md)
 
-<sub>© 2026 Prof. Daniel Santos · Texto sob [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código sob [MIT](../../LICENSE)</sub>
+<sub>© 2026 Prof. Daniel Santos · Texto sob [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código sob [PolyForm NC](../../LICENSE)</sub>

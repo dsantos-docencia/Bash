@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Projeto 4 · tarefas.sh — CLI profissional de tarefas
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  Um gerenciador de tarefas de linha de comando, com SUBCOMANDOS (como git),
 #  cores, --help e persistência num arquivo de texto.

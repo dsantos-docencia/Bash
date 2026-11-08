@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Projeto 3 · renomear.sh — Renomeação em lote
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  Renomeia em massa os arquivos de um diretório aplicando transformações:
 #  minúsculas, troca de espaços por "_", e prefixo opcional. Mostra um

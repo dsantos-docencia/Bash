@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 05 · Exemplo 02 — Relatório a partir de um CSV
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Usar awk para ler um CSV e gerar um relatório com totais —
 #            a tarefa que o Bash faz melhor que planilha para automação.

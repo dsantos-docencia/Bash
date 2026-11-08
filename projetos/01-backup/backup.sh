@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Projeto 1 · backup.sh — Backup inteligente com rotação
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  Compacta um diretório em .tar.gz com data no nome, mantém apenas as N
 #  cópias mais recentes (rotação) e registra tudo num log.

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # Solução 04.03 — testa o múltiplo de 15 (3 e 5) ANTES dos individuais.
 for (( i=1; i<=$1; i++ )); do
     if   (( i % 15 == 0 )); then echo "FizzBuzz"

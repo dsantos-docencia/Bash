@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 01 · Exemplo 01 — Navegação
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Ver na prática caminhos absolutos/relativos e os atalhos ~ . .. -
 #  EXECUTE   bash 01-navegacao.sh

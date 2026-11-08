@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 02 · Exemplo 03 — Globbing e expansão de chaves
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Ver o shell expandir *, ?, [] (que olham o disco) e {} (texto).
 #  EXECUTE   bash 03-globbing.sh

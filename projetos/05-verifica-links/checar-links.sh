@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Projeto 5 · checar-links.sh — Verificador de links Markdown
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  Lê um arquivo Markdown, extrai os links [texto](destino) e verifica se os
 #  links LOCAIS (arquivos relativos) existem. Reporta os quebrados e sai com
@@ -33,6 +33,23 @@ shift $(( OPTIND - 1 ))
 quebrados=0
 verificados=0
 
+# Remove blocos <!-- ... --> (inclusive multilinha) de um arquivo, imprimindo
+# o resto. Feito com awk (sem dependências externas), percorrendo caractere a
+# caractere com um estado "dentro/fora de comentário".
+sem_comentarios_html() {
+    awk '
+    {
+        linha = $0; saida = ""; i = 1; n = length(linha)
+        while (i <= n) {
+            if (!dentro && substr(linha, i, 4) == "<!--") { dentro = 1; i += 4; continue }
+            if (dentro && substr(linha, i, 3) == "-->")   { dentro = 0; i += 3; continue }
+            if (!dentro) saida = saida substr(linha, i, 1)
+            i++
+        }
+        print saida
+    }' "$1"
+}
+
 checar_arquivo() {
     local md="$1"
     [[ -f "$md" ]] || { echo "erro: não achei $md" >&2; return 1; }
@@ -62,9 +79,10 @@ checar_arquivo() {
             echo "  [QUEBRADO] $md → $destino"
             quebrados=$(( quebrados + 1 ))
         fi
-    # sed remove trechos em código inline (`...`) para não acusar EXEMPLOS de
-    # sintaxe como se fossem links reais; só então extraímos os [texto](destino).
-    done < <(sed 's/`[^`]*`//g' "$md" | grep -oE '\]\([^)]+\)' | sed -E 's/^\]\(//; s/\)$//')
+    # Antes de extrair, removemos o que NÃO é link de verdade, para não acusar
+    # exemplos de sintaxe: (1) comentários HTML <!-- ... --> (podem ser multilinha)
+    # e (2) trechos de código inline `...`. Só então pegamos os [texto](destino).
+    done < <(sem_comentarios_html "$md" | sed 's/`[^`]*`//g' | grep -oE '\]\([^)]+\)' | sed -E 's/^\]\(//; s/\)$//')
 }
 
 for md in "$@"; do

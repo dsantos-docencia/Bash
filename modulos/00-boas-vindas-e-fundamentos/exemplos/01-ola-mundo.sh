@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 00 · Exemplo 01 — Olá, mundo
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Ver a anatomia mínima de um script Bash.
 #  EXECUTE   bash 01-ola-mundo.sh            (pede ao bash para ler o arquivo)

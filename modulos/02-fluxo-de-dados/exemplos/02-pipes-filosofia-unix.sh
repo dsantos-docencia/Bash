@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 02 · Exemplo 02 — Pipes e a filosofia Unix
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Resolver um problema real ("top IPs de um log") montando uma
 #            linha de montagem de comandos simples com pipes.

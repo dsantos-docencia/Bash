@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 07 · Exemplo 02 — trap para limpeza garantida
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Ver que 'trap ... EXIT' limpa recursos mesmo quando o script
 #            falha no meio — a diferença entre lixo acumulado e sistema limpo.

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 00 · Exemplo 02 — Três formas de executar um script
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Entender por que `bash x.sh`, `./x.sh` e `source x.sh` NÃO são
 #            a mesma coisa — a diferença está em QUEM executa o código.

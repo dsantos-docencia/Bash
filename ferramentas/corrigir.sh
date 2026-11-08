@@ -4,7 +4,7 @@
 #  ferramentas/corrigir.sh — Corretor automático de exercícios
 #
 #  Autor: Prof. Daniel Santos · https://github.com/dsantos-docencia/bash
-#  © 2026 Daniel Santos — Código sob licença MIT (veja LICENSE)
+#  © 2026 Daniel Santos — Código sob PolyForm Noncommercial 1.0.0 (veja LICENSE)
 # ============================================================================
 #
 #  USO

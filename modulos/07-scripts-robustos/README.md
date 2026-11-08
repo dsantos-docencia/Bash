@@ -220,4 +220,4 @@ Veja [exercicios/README.md](exercicios/README.md). Corrija com `./ferramentas/co
 
 ⬅️ [Módulo 06](../06-arrays-e-funcoes/README.md) · ➡️ [Módulo 08 — Qualidade e Testes](../08-qualidade-e-testes/README.md)
 
-<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [MIT](../../LICENSE)</sub>
+<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [PolyForm NC](../../LICENSE)</sub>

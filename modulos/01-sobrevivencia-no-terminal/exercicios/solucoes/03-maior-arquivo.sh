@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # Solução 01.03
 # -printf '%s %p\n' imprime 'tamanho caminho'; ordenamos numericamente e
 # pegamos a última linha (a maior). cut remove a coluna do tamanho.

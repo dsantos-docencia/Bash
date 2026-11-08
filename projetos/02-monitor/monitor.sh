@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Projeto 2 · monitor.sh — Monitor de recursos do sistema
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  Coleta uso de disco, memória e carga, compara com limites e alerta.
 #  Sai com código 1 se QUALQUER limite for ultrapassado (útil para cron/CI).

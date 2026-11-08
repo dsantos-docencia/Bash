@@ -21,6 +21,6 @@ Resumo legível: <https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR>
 
 ---
 
-> **Nota sobre o código:** os **scripts, ferramentas e exemplos de código** (`.sh`, `.bats`) seguem a licença [MIT](LICENSE), mais permissiva, para que você possa reutilizá-los livremente, inclusive em projetos comerciais. Esta licença CC aplica-se apenas ao material *textual/didático*.
+> **Nota sobre o código:** os **scripts, ferramentas e exemplos de código** (`.sh`, `.bats`) seguem a licença [PolyForm Noncommercial 1.0.0](LICENSE), que permite usar, modificar e redistribuir **para fins não comerciais**. Esta licença CC aplica-se ao material *textual/didático*. Em ambos os casos, **uso comercial não é permitido** sem autorização do autor — veja o [NOTICE](NOTICE.md).
 
-© 2026 Daniel Santos
+© 2026 Daniel Santos — todos os direitos reservados ao autor; as licenças acima são concedidas ao público.

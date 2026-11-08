@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
 #  Curso de Bash · Módulo 09 · Exemplo 01 — Subshell ( ) vs grupo { }
-#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+#  Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # ----------------------------------------------------------------------------
 #  OBJETIVO  Ver que ( ) isola cd/variáveis e { } não.
 #  EXECUTE   bash 01-subshell-vs-grupo.sh

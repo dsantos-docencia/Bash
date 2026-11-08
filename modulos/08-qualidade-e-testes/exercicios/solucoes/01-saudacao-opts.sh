@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # Solução 08.01
 nome="mundo"; maiusc=0
 while getopts "n:uh" opt; do

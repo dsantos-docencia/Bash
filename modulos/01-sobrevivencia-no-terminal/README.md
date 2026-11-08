@@ -266,4 +266,4 @@ Veja [exercicios/README.md](exercicios/README.md). Corrija com `./ferramentas/co
 
 ⬅️ [Módulo 00](../00-boas-vindas-e-fundamentos/README.md) · ➡️ [Módulo 02 — Fluxo de Dados](../02-fluxo-de-dados/README.md)
 
-<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [MIT](../../LICENSE)</sub>
+<sub>© 2026 Prof. Daniel Santos · Conteúdo [CC BY-NC-SA 4.0](../../LICENSE-CONTEUDO.md) · Código [PolyForm NC](../../LICENSE)</sub>

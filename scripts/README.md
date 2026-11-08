@@ -36,4 +36,4 @@ Os scripts de Samba AD existiam em **18 arquivos** com nomes como `..._v27 - Cop
 
 Todos os demais arquivos foram para [`samba-ad/_a-revisar-exclusao/`](samba-ad/_a-revisar-exclusao/). **Nada foi apagado** — ficam ali para você conferir com calma e então decidir a exclusão. Veja o [inventário comentado](samba-ad/_a-revisar-exclusao/README.md) de cada um.
 
-<sub>© 2026 Prof. Daniel Santos · Scripts sob licença MIT · Veja o aviso de uso acima.</sub>
+<sub>© 2026 Prof. Daniel Santos · Scripts sob PolyForm Noncommercial (não comercial) · Veja o aviso de uso acima.</sub>

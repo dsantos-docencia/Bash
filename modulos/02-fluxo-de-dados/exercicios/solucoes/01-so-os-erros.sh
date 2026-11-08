@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (MIT)
+# Curso de Bash · Prof. Daniel Santos · github.com/dsantos-docencia/bash · © 2026 (PolyForm-NC · não comercial)
 # Solução 02.01
 gerar() { echo "resultado bom"; echo "deu ruim" >&2; }
 # 1>/dev/null descarta o stdout; 2>&1 redireciona o stderr para o stdout
