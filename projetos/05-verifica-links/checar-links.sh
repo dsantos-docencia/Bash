@@ -62,7 +62,9 @@ checar_arquivo() {
             echo "  [QUEBRADO] $md → $destino"
             quebrados=$(( quebrados + 1 ))
         fi
-    done < <(grep -oE '\]\([^)]+\)' "$md" | sed -E 's/^\]\(//; s/\)$//')
+    # sed remove trechos em código inline (`...`) para não acusar EXEMPLOS de
+    # sintaxe como se fossem links reais; só então extraímos os [texto](destino).
+    done < <(sed 's/`[^`]*`//g' "$md" | grep -oE '\]\([^)]+\)' | sed -E 's/^\]\(//; s/\)$//')
 }
 
 for md in "$@"; do
