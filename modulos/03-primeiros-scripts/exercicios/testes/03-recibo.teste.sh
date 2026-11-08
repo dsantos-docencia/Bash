@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # Usamos um produto sem acento para o alinhamento ser previsível
 # (printf conta BYTES; letras acentuadas em UTF-8 ocupam 2 bytes).
 teste_formato() {

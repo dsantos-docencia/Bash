@@ -26,9 +26,9 @@ printf '   percentual:      %d%%\n' 80     # 80% (%% imprime um % literal)
 
 echo
 echo "4) Por que evitar 'echo -e' em scripts portáveis:"
-echo '   echo -e "a\tb"  pode imprimir literalmente "-e a\tb" em alguns sh.'
-printf '   printf sempre interpreta: a%tb → ' | tr '%' '\\'
-printf 'a\tb\n'
+echo "   Em alguns sistemas, echo -e imprime literalmente o -e."
+echo "   Já o printf interpreta escapes de forma confiável:"
+printf '   a\tb (tab de verdade entre a e b)\n'
 
 echo
 echo "Regra: para interação rápida, echo. Para saída séria/formatada, printf."

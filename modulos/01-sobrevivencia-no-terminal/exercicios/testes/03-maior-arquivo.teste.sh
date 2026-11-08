@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 teste_acha_o_maior() {
     head -c 100  /dev/zero > pequeno.bin
     head -c 5000 /dev/zero > grande.bin

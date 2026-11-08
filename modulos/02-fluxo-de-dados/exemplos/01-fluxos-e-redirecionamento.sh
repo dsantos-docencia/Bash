@@ -8,7 +8,7 @@
 # ============================================================================
 set -euo pipefail
 LAB="$(mktemp -d)"; trap 'rm -rf -- "$LAB"' EXIT
-cd "$LAB"
+cd "$LAB" || exit 1
 
 # Uma mini-função que fala nos DOIS canais ao mesmo tempo.
 tagarela() {

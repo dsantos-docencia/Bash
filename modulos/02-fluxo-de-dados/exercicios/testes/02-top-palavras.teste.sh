@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 teste_tres_mais_frequentes() {
     printf 'sol sol sol mar mar vento praia praia praia praia\n' > texto.txt
     executar texto.txt

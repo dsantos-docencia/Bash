@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # Testes do exercício 00.01
 teste_imprime_ola_mundo() {
     executar

@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # Testes do exercício 00.02
 teste_formato_da_versao() {
     executar

@@ -9,7 +9,7 @@
 # ============================================================================
 set -euo pipefail
 LAB="$(mktemp -d)"; trap 'rm -rf -- "$LAB"' EXIT
-cd "$LAB"
+cd "$LAB" || exit 1
 
 # Geramos um "log de acesso" fictício para ter o que analisar.
 cat > acesso.log <<'EOF'

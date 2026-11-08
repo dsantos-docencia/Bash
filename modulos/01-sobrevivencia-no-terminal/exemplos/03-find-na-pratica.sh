@@ -9,7 +9,7 @@
 # ============================================================================
 set -euo pipefail
 LAB="$(mktemp -d)"; trap 'rm -rf -- "$LAB"' EXIT
-cd "$LAB"
+cd "$LAB" || exit 1
 
 # Monta uma mini-árvore de arquivos de vários tipos e tamanhos.
 mkdir -p projeto/src projeto/logs projeto/tmp

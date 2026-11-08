@@ -45,6 +45,7 @@ fi
 # Protege contra laços infinitos — erro comum e honesto de quem está aprendendo.
 TEMPO_LIMITE="${TEMPO_LIMITE:-10}"
 
+# shellcheck disable=SC2034  # usados pelos arquivos de teste que fazem source desta lib
 SAIDA='' ERRO='' STATUS=0
 
 # ----------------------------------------------------------------------------
@@ -71,7 +72,10 @@ executar_com_entrada() {
     STATUS=$?
 
     # $(< arquivo) lê o arquivo sem criar processo extra e remove as \n finais.
+    # SAIDA/ERRO são lidos pelos arquivos de teste que dão source nesta lib.
+    # shellcheck disable=SC2034
     SAIDA="$(< "$arq_out")"
+    # shellcheck disable=SC2034
     ERRO="$(< "$arq_err")"
     rm -f -- "$arq_out" "$arq_err"
 

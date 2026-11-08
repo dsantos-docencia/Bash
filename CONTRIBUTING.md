@@ -53,9 +53,10 @@ modulos/NN-nome-do-modulo/
 - Zero avisos do ShellCheck (ou um `# shellcheck disable=SCxxxx` justificado).
 
 ### Escrevendo um teste
-Toda função `teste_*` em um arquivo `.teste.sh` é descoberta e rodada isoladamente. As asserções disponíveis estão documentadas em [`ferramentas/lib/teste.sh`](ferramentas/lib/teste.sh):
+Toda função `teste_*` em um arquivo `.teste.sh` é descoberta e rodada isoladamente. Os arquivos `.teste.sh` são *sourced* (não executados), então começam com a diretiva `# shellcheck shell=bash` em vez de shebang. As asserções disponíveis estão documentadas em [`ferramentas/lib/teste.sh`](ferramentas/lib/teste.sh):
 
 ```bash
+# shellcheck shell=bash
 teste_descricao_curta() {
     executar arg1 arg2          # roda o script do aluno
     afirmar_status 0

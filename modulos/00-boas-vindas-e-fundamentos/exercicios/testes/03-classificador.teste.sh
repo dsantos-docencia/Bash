@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # Testes do exercício 00.03
 teste_builtin()  { executar cd;   afirmar_igual "builtin" "$SAIDA"; afirmar_status 0; }
 teste_keyword()  { executar if;   afirmar_igual "keyword" "$SAIDA"; }

@@ -8,7 +8,7 @@
 # ============================================================================
 set -uo pipefail
 LAB="$(mktemp -d)"; trap 'rm -rf -- "$LAB"' EXIT
-cd "$LAB"
+cd "$LAB" || exit 1
 
 nome="Ana Paula"
 hoje="$(date +%Y)"

@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 teste_640_vira_rw_r() {
     : > alvo.txt
     executar alvo.txt

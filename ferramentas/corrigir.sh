@@ -51,6 +51,7 @@ mod="$(normalizar "${args[0]}")"
 exe="$(normalizar "${args[1]:-*}")"
 
 shopt -s nullglob   # glob sem resultado vira lista vazia, não o texto literal
+# shellcheck disable=SC2206  # a expansão do glob é justamente o que queremos
 testes=( "$RAIZ"/modulos/${mod}-*/exercicios/testes/${exe}-*.teste.sh )
 
 if (( ${#testes[@]} == 0 )); then

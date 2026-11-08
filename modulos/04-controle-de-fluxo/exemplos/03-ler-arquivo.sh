@@ -9,7 +9,7 @@
 # ============================================================================
 set -uo pipefail
 LAB="$(mktemp -d)"; trap 'rm -rf -- "$LAB"' EXIT
-cd "$LAB"
+cd "$LAB" || exit 1
 
 # Arquivo com casos que QUEBRAM o jeito errado: espaços e um asterisco.
 cat > dados.txt <<'EOF'
@@ -27,6 +27,7 @@ echo "   (divide em PALAVRAS, não em linhas, e expande o *):"
 n=0
 # set -f desliga o glob só para o * não virar lista de arquivos nesta demo.
 set -f
+# shellcheck disable=SC2013  # anti-exemplo PROPOSITAL (jeito errado de ler arquivo)
 for palavra in $(cat dados.txt); do
     (( ++n )); printf '   pedaço %d: [%s]\n' "$n" "$palavra"
 done

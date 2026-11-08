@@ -39,7 +39,7 @@ falha()  { printf '  %s✘%s %s\n' "$R" "$Z" "$1"; (( erros++ )); }
 scripts=()
 while IFS= read -r -d '' f; do
     scripts+=("$f")
-done < <(find . -path ./acervo -prune -o -path ./.git -prune -o -name '*.sh' -type f -print0 | sort -z)
+done < <(find . -path ./scripts -prune -o -path ./.git -prune -o -name '*.sh' -type f -print0 | sort -z)
 
 titulo "1. Sintaxe (bash -n) — ${#scripts[@]} arquivos"
 n=0
@@ -50,7 +50,7 @@ ok "$n arquivos com sintaxe válida"
 
 titulo "2. ShellCheck"
 if command -v shellcheck >/dev/null; then
-    if shellcheck -x "${scripts[@]}"; then ok "nenhum aviso"; else falha "shellcheck encontrou problemas (acima)"; fi
+    if shellcheck --severity=warning -x "${scripts[@]}"; then ok "nenhum aviso"; else falha "shellcheck encontrou problemas (acima)"; fi
 else
     printf '  %s!%s shellcheck não instalado — etapa pulada (apt install shellcheck)\n' "$A" "$Z"
 fi

@@ -8,7 +8,7 @@
 # ============================================================================
 set -uo pipefail
 LAB="$(mktemp -d)"; trap 'rm -rf -- "$LAB"' EXIT
-cd "$LAB"
+cd "$LAB" || exit 1
 
 echo "1) O if testa o CÓDIGO DE SAÍDA de um comando:"
 if true;  then echo "   'true'  saiu 0 → bloco then";  fi
@@ -36,6 +36,7 @@ if (( idade >= 18 )); then echo "   (( idade >= 18 )) → maior de idade"; fi
 
 echo
 echo "5) Armadilha clássica: < no [[ ]] é ordem ALFABÉTICA, não numérica!"
+# shellcheck disable=SC2071,SC2050  # demonstracao PROPOSITAL do erro de comparar numeros com <
 if [[ "9" < "100" ]]; then echo '   [[ 9 < 100 ]] → VERDADE? NÃO esperado...'; else echo '   [[ "9" < "100" ]] → FALSO! ("9" vem depois de "1" no dicionário)'; fi
 if (( 9 < 100 )); then echo "   (( 9 < 100 ))    → VERDADE (comparação numérica correta)"; fi
 
