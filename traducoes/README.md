@@ -29,12 +29,15 @@ Regras simples:
 |---|:---:|:---:|:---:|
 | README (capa) | ✅ | ✅ | — |
 | CONTRIBUTING | ✅ | ✅ | — |
-| Módulo 00 | ✅ | ✅ | — |
-| Módulos 01–11 | ✅ | 🚧 ajude! | — |
-| Projetos | ✅ | 🚧 ajude! | — |
-| Referência | ✅ | 🚧 ajude! | — |
+| READMEs dos módulos (00–11) | ✅ | ✅ | — |
+| READMEs dos exercícios | ✅ | ✅ | — |
+| READMEs dos projetos | ✅ | ✅ | — |
+| Referência (cheat-sheet, tabelas, man) | ✅ | ✅ | — |
+| Comentários dentro dos scripts | ✅ | 🚧 ajude! | — |
 
 ✅ pronto · 🚧 em aberto (pegue um e contribua!) · — ainda não começado
+
+> As páginas estão todas em inglês; o que ainda falta é traduzir os **comentários dentro dos scripts** (`.sh`) — e, claro, **correções e melhorias** nas traduções existentes são sempre bem-vindas. Achou um deslize? Abra uma issue ou PR.
 
 ## Quer traduzir?
 
