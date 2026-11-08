@@ -26,9 +26,6 @@ echo "   PATH atual = $PATH" | cut -c1-70
 echo "   ...já o cron costuma ter só: /usr/bin:/bin"
 echo
 echo "   Demonstração — o MESMO comando com um PATH 'de cron':"
-cria_demo() { command -v figlet >/dev/null 2>&1 && echo figlet || echo "ferramenta-exotica"; }
-ferramenta="ferramenta-que-nao-esta-no-path-minimo"
-
 echo "   • No seu terminal, 'date' é encontrado:"
 date +'      %H:%M:%S' 2>&1 | head -1
 
