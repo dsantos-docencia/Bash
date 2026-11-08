@@ -57,7 +57,11 @@ fi
 
 if (( ! rapido )); then
     titulo "3. Execução dos exemplos"
-    for f in modulos/*/exemplos/*.sh; do
+    # Só os exemplos NUMERADOS (NN-...) são demos auto-executáveis que devem
+    # sair com 0. Exemplos "ferramenta" (ex.: calculadora.sh) são exercitados
+    # pelos seus testes Bats na etapa 3b, não rodados soltos aqui.
+    for f in modulos/*/exemplos/[0-9]*.sh; do
+        [[ -e "$f" ]] || continue
         tmp="$(mktemp -d)"
         # Cada exemplo roda num diretório vazio, sem teclado (stdin=/dev/null)
         # e com tempo limitado. Um exemplo didático não pode travar nem falhar.
@@ -68,6 +72,20 @@ if (( ! rapido )); then
         fi
         rm -rf -- "$tmp"
     done
+
+    titulo "3b. Testes Bats (se instalado)"
+    if command -v bats >/dev/null; then
+        mapfile -t bats_files < <(find modulos -name '*.bats' | sort)
+        if (( ${#bats_files[@]} )) && bats "${bats_files[@]}" >/tmp/bats.log 2>&1; then
+            ok "$(grep -cE '^ok ' /tmp/bats.log) testes Bats passaram"
+        elif (( ${#bats_files[@]} )); then
+            falha "testes Bats falharam"; tail -n 20 /tmp/bats.log | sed 's/^/      /'
+        else
+            printf '  %s!%s nenhum arquivo .bats encontrado\n' "$A" "$Z"
+        fi
+    else
+        printf '  %s!%s bats não instalado — etapa pulada (apt install bats)\n' "$A" "$Z"
+    fi
 fi
 
 titulo "4. Soluções oficiais contra os testes"
